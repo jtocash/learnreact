@@ -1,22 +1,14 @@
 import './App.css';
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Axios from "axios"
 
-function App() {
-  const [count, setCount] = useState(0);
 
-  
-
-  return (
-  <div className="App"> 
-  <button onClick = { () => { setCount(count + 1)}}>increase</button>
-  <button onClick = { () => { setCount(count - 1)}}>decrease</button>
-  <button onClick = { () => { setCount(0)}}>set zero</button>
-  {count}
-   </div>
- 
- 
-  );
-
+function App() { 
+  return(
+    <div className="App">
+    
+     </div>
+  )
 }
 
 
